@@ -1,1 +1,1 @@
-execute as @a[tag=hallucinate.3] at @s if predicate hallucinate:3 run function hallucinate:3/1
+execute as @a[tag=hallucinate.3,scores={hallucinate.0=-150..0}] at @s if predicate hallucinate:3 run function hallucinate:3/1

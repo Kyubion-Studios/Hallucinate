@@ -9,3 +9,7 @@ execute as @e[type=warden] on target at @s if entity @s[tag=hallucinate.1] run f
 
 # Hit the Warden
 execute as @e[type=warden] on attacker at @s if entity @s[tag=hallucinate.2] run function hallucinate:3/0
+
+# Steps
+scoreboard objectives add hallucinate.0 dummy
+scoreboard players add @a[scores={hallucinate.0=..-1}] hallucinate.0 1

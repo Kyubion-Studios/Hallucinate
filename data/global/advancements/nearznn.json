@@ -1,17 +1,17 @@
 {
     "display": {
       "icon": {
-        "item": "minecraft:sculk"
+        "item": "minecraft:player_head",
+        "nbt": "{SkullOwner: 'nearznn'}"
       },
       "title": {
-        "text": "Hallucinate",
-        "color": "#036164"
+        "text": "Nearznn"
       },
       "description": "",
       "show_toast": true,
       "announce_to_chat": false
     },
-    "parent": "global:nearznn",
+    "parent": "global:root",
     "criteria": {
       "tick": {
         "trigger": "minecraft:tick"
