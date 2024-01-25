@@ -1,6 +1,9 @@
 {
 	"pack": {
-		"pack_format": 15,
-		"description": [{"text":"Hallucinate","color":"#036164"},{"text":" | ","color":"dark_gray"},{"text":"ʙʏ ","color":"yellow"},{"text":"Nearznn","color":"aqua"}]
+		"pack_format": {
+			"min_inclusive": 10,
+			"max_inclusive": 27
+		},
+		"description": [{"text":"Hallucinate","color":"#036164"},{"text":" | ","color":"dark_gray"},{"text":"ʙʏ ","color":"yellow"},{"text":"Kyubion Studios","color":"#6E0F83"}]
 	}
 }
