@@ -1,1 +1,0 @@
-execute as @a[tag=hallucinate.0] at @s if predicate hallucinate:0 run function hallucinate:0/1
