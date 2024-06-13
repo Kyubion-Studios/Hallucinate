@@ -1,0 +1,1 @@
+execute as @a[tag=hallucinate.2] at @s if predicate hallucinate:2 run function hallucinate:2/1
